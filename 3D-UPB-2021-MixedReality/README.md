@@ -34,7 +34,7 @@ ManoMotion is a cool framework which allows building Android/iOS apps in AR, usi
 # Sneak peek on what we'll be implementing
 Here's a GIF
 
-![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/MixedReality/GIFs/ar-mr-app-small.gif)
+![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/3D-UPB-2021-MixedReality/GIFs/ar-mr-app-small.gif)
 
 **Also, check out the full demo here (https://www.youtube.com/watch?v=njgYgnUo0s0)**, relevant for you to get an idea of what functionalities to implement during this workshop session.
 
@@ -97,7 +97,7 @@ Because there's a lot of setup to do for an XR app, I've already done all the AR
 
 > ⭐Hint: ManoMotion can be picky about hand recognition. It works best if there's sufficient light and a plain background.
 
-![enter image description here](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/MixedReality/GIFs/xr-test-scene-demo.gif) 
+![enter image description here](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/3D-UPB-2021-MixedReality/GIFs/xr-test-scene-demo.gif) 
 
 ## 2. Project structure
 
@@ -268,7 +268,7 @@ As we now want to throw the basketball instead of just releasing it, inside **Ha
 - Follow the ```//TODOs``` in the **UpdatePhysicsObjectThrowPower.cs** script to complete this task, I've left some comments to guide you
 - The powerbar (slider) should continuously animate between its max and min values as long as the physics object is held in the air (following the grab gesture)
 
-![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/MixedReality/GIFs/powerbar-gif.gif)
+![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/3D-UPB-2021-MixedReality/GIFs/powerbar-gif.gif)
 
 ### 3. Compute throw direction and apply throw action
 
@@ -294,4 +294,4 @@ As we now want to throw the basketball instead of just releasing it, inside **Ha
 
 **Happy coding!**
 
-![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/MixedReality/GIFs/happy-coding-gif.gif)
+![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/3D-UPB-2021-MixedReality/GIFs/happy-coding-gif.gif)

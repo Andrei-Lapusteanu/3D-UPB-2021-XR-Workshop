@@ -53,6 +53,9 @@ Because there's a lot of setup to do for an XR app, I've already done all the AR
 
 ## 1. Basic setup & ManoMotion testing
 
+#### ❗❗❗ **Please make sure to disable your antivirus (especially if you're using anything else that Windows Defender). Otherwise, you could run into errors while building the app to your phone, which will leave you stuck. More details can be found here: https://forum.unity.com/threads/il2cpp-stuck-at-building-native-binary-with-il2cpp.1060553/**
+ ⭐ Special thanks to Iulian-Ilie Drăcea for tracking down this issue
+
 ### 1.1. Smartphone setup 
 
 **1.** You'll need to enable **Developer Mode**, **USB Debugging** and **Install via USB** on your device

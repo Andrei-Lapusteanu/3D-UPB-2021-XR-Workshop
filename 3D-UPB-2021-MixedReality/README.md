@@ -29,7 +29,7 @@ Since **MR** is usually achieved using headsets, what we'll be working on isn't 
 Multi-platform API used to develop AR apps. Can be used to simultaneously develop apps for ARCore (Android) or ARKit (iOS)
 
 #### ManoMotion SDK
-ManoMotion is a cool framework which allows building Android/iOS apps in AR, using your hand as input .It employs some fancy computer vision algorithms to recognize your hand and also has an SDK which allows you to code apps using gestures as input.
+ManoMotion is a cool framework which allows building Android/iOS apps in AR, using your hand as input. It employs some fancy computer vision algorithms to recognize your hand and also has an SDK which allows you to code apps using gestures as input.
 
 # Sneak peek on what we'll be implementing
 Here's a GIF
@@ -249,7 +249,7 @@ Most of the coding will be done in the scripts from the "ToDoLogic" folder.
 
  As I've already said, instant preview isn't an option for now, and thus you won't have to implement too much stuff. In order to work easier, I've setup the project to take input from either mouse (desktop) or your hand (AR). As such, it's easier to test some parts of the app before building to your smartphone. If you want to do so, follow these steps in order to prototype for desktop:
 
-- In the Unity Editor (inspector), on the **ARGameInitController** object, on the **ARInitManager** script, set **Global Game Mode** to **AR**
+- In the Unity Editor (inspector), on the **ARGameInitController** object, on the **ARInitManager** script, set **Global Game Mode** to **Desktop**
 
 > ⭐Note: Don't forget to change it back when building to phone! 
 

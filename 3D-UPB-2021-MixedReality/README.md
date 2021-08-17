@@ -1,4 +1,4 @@
-# 3D-PUB-2021-XR | Mixed Reality Workshop
+# 3D-UPB-2021-XR | Mixed Reality Workshop
 
 # Quick onboarding
 

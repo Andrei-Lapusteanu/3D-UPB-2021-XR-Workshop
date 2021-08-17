@@ -83,7 +83,7 @@ Because there's a lot of setup to do for an XR app, I've already done all the AR
 - Check if your device shows up in the **Run Device** combobox. If true, you can leave it or the **Default device** option selected
 - At the top you'll see the **Scenes In Build**. I have provided you with a number of scenes in order to test different functionalities, more on this later. For now, **select only the scene numbered 2**, as pictured above
 
-**7.** **Let's try doing a build.** Simply click on **Build And Run**, save the *.apk* wherever you want, name it however you fancy, and give Unity some time to think. First build of any project usually takes some time, expect +2 mins at least (it will depend strongly on your PC, if it takes you <1min, I really envy your setup 🙃)
+**7.** **Let's try doing a build.** Simply click on **Build And Run**, save the *.apk* wherever you want, name it however you fancy, and give Unity some time to think. First build of any project usually takes some time, expect +2 mins at least (it will depend strongly on your PC, if it takes you < 2 min, I really envy your setup 🙃)
 
 **8.** Watch your phone as the progress bar nears completion. You'll probably have to **permit the app to install on your smartphone**
 

@@ -25,7 +25,7 @@ Basically, I've made a simple and silly FPS game which currently works on PC (ke
 > 
 > Disclaimer: There's no hate towards drones, they're cool, consider the cannon-wielding protagonist as the villain in this game 😁
 
-<LINK! >
+[VR Demo (click here)](https://www.youtube.com/watch?v=mvYk8ZkUaXU)
 
 # Let's get to work
 

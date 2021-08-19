@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/BT-Controller-Tester.unity
+    guid: 67a11b2053f8df04694fdb414e215ae4
+  - enabled: 1
+    path: Assets/Scenes/Drone-Shooter-Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f9f541ca05ac7334f985044bba883c57, type: 2}

@@ -1,4 +1,4 @@
-# 3D-PUB-2021-XR | Mixed Reality Workshop
+# 3D-UPB-2021-XR | Mixed Reality Workshop
 
 # Quick onboarding
 
@@ -29,12 +29,12 @@ Since **MR** is usually achieved using headsets, what we'll be working on isn't 
 Multi-platform API used to develop AR apps. Can be used to simultaneously develop apps for ARCore (Android) or ARKit (iOS)
 
 #### ManoMotion SDK
-ManoMotion is a cool framework which allows building Android/iOS apps in AR, using your hand as input .It employs some fancy computer vision algorithms to recognize your hand and also has an SDK which allows you to code apps using gestures as input.
+ManoMotion is a cool framework which allows building Android/iOS apps in AR, using your hand as input. It employs some fancy computer vision algorithms to recognize your hand and also has an SDK which allows you to code apps using gestures as input.
 
 # Sneak peek on what we'll be implementing
 Here's a GIF
 
-![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/MixedReality/GIFs/ar-mr-app-small.gif)
+![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/3D-UPB-2021-MixedReality/GIFs/ar-mr-app-small.gif)
 
 **Also, check out the full demo here (https://www.youtube.com/watch?v=njgYgnUo0s0)**, relevant for you to get an idea of what functionalities to implement during this workshop session.
 
@@ -52,6 +52,9 @@ Because there's a lot of setup to do for an XR app, I've already done all the AR
 # Let's get to work
 
 ## 1. Basic setup & ManoMotion testing
+
+#### ❗❗❗ **Please make sure to disable your antivirus (especially if you're using anything else that Windows Defender). Otherwise, you could run into errors while building the app to your phone, which will leave you stuck. More details can be found here: https://forum.unity.com/threads/il2cpp-stuck-at-building-native-binary-with-il2cpp.1060553/**
+ ⭐ Special thanks to Iulian-Ilie Drăcea for tracking down this issue
 
 ### 1.1. Smartphone setup 
 
@@ -83,7 +86,7 @@ Because there's a lot of setup to do for an XR app, I've already done all the AR
 - Check if your device shows up in the **Run Device** combobox. If true, you can leave it or the **Default device** option selected
 - At the top you'll see the **Scenes In Build**. I have provided you with a number of scenes in order to test different functionalities, more on this later. For now, **select only the scene numbered 2**, as pictured above
 
-**7.** **Let's try doing a build.** Simply click on **Build And Run**, save the *.apk* wherever you want, name it however you fancy, and give Unity some time to think. First build of any project usually takes some time, expect +2 mins at least (it will depend strongly on your PC, if it takes you <1min, I really envy your setup 🙃)
+**7.** **Let's try doing a build.** Simply click on **Build And Run**, save the *.apk* wherever you want, name it however you fancy, and give Unity some time to think. First build of any project usually takes some time, expect +2 mins at least (it will depend strongly on your PC, if it takes you < 2 min, I really envy your setup 🙃)
 
 **8.** Watch your phone as the progress bar nears completion. You'll probably have to **permit the app to install on your smartphone**
 
@@ -97,7 +100,7 @@ Because there's a lot of setup to do for an XR app, I've already done all the AR
 
 > ⭐Hint: ManoMotion can be picky about hand recognition. It works best if there's sufficient light and a plain background.
 
-![enter image description here](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/MixedReality/GIFs/xr-test-scene-demo.gif) 
+![enter image description here](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/3D-UPB-2021-MixedReality/GIFs/xr-test-scene-demo.gif) 
 
 ## 2. Project structure
 
@@ -249,7 +252,7 @@ Most of the coding will be done in the scripts from the "ToDoLogic" folder.
 
  As I've already said, instant preview isn't an option for now, and thus you won't have to implement too much stuff. In order to work easier, I've setup the project to take input from either mouse (desktop) or your hand (AR). As such, it's easier to test some parts of the app before building to your smartphone. If you want to do so, follow these steps in order to prototype for desktop:
 
-- In the Unity Editor (inspector), on the **ARGameInitController** object, on the **ARInitManager** script, set **Global Game Mode** to **AR**
+- In the Unity Editor (inspector), on the **ARGameInitController** object, on the **ARInitManager** script, set **Global Game Mode** to **Desktop**
 
 > ⭐Note: Don't forget to change it back when building to phone! 
 
@@ -268,7 +271,7 @@ As we now want to throw the basketball instead of just releasing it, inside **Ha
 - Follow the ```//TODOs``` in the **UpdatePhysicsObjectThrowPower.cs** script to complete this task, I've left some comments to guide you
 - The powerbar (slider) should continuously animate between its max and min values as long as the physics object is held in the air (following the grab gesture)
 
-![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/MixedReality/GIFs/powerbar-gif.gif)
+![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/3D-UPB-2021-MixedReality/GIFs/powerbar-gif.gif)
 
 ### 3. Compute throw direction and apply throw action
 
@@ -294,4 +297,4 @@ As we now want to throw the basketball instead of just releasing it, inside **Ha
 
 **Happy coding!**
 
-![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/MixedReality/GIFs/happy-coding-gif.gif)
+![img desc](https://github.com/Andrei-Lapusteanu/3D-UPB-2021-XR-Workshop/blob/master/3D-UPB-2021-MixedReality/GIFs/happy-coding-gif.gif)

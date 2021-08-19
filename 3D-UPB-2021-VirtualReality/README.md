@@ -1,5 +1,5 @@
 
-# 3D-UPB-2021-XR | Mixed Reality Workshop
+# 3D-UPB-2021-XR | Virtual Reality Workshop
 
 # Quick onboarding
 
@@ -258,8 +258,7 @@ Follows these guidelines (also, see the behaviour in the video), but feel free t
 	
 	- Do not instantiate the **DroneProjectile** at the position of the drone, as it will automatically collide with it. Instantiate it in front of the drone, a possible solution could be ```transform.position + 2 * transform.forward```, where ```transform``` refers to the drone's transform.
 	
-	- When shooting, the drone should play the sound **droneFire.mp3**, found under the **Sounds** folder. As the drone has **2 AudioSources** attached, we
-	-  have to select which one to play when firing (as the first sound is already used for the flying sound). I've already setup this for you, consult the ```PlayFireSound()``` inside the ```DroneAttackController.cs``` for implementation
+	- When shooting, the drone should play the sound **droneFire.mp3**, found under the **Sounds** folder. As the drone has **2 AudioSources** attached, we have to select which one to play when firing (as the first sound is already used for the flying sound). I've already setup this for you, consult the ```PlayFireSound()``` inside the ```DroneAttackController.cs``` for implementation
 	
 	- When a **DroneProjectile** collides with the player, he/she should take damage. The ```PlayerController.cs``` scrips already has a ```TakeDamage()``` function, you can make use of that
 	

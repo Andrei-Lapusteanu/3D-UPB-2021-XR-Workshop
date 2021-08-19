@@ -98,6 +98,8 @@ The **quickstart guide** for the plugin can be found here https://developers.goo
 	 
 	- In the **Build**  section, select  `Custom Main Gradle Template`  and  `Custom Gradle Properties Template`
 
+	- Add the following lines to `Assets/Plugins/Android/mainTemplate.properties` (open with Notepad/Notepad++)
+
 ```JS
 implementation 'androidx.appcompat:appcompat:1.0.0'  
 implementation 'androidx.constraintlayout:constraintlayout:1.1.3'  

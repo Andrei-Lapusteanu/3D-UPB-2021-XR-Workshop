@@ -87,9 +87,10 @@ public class HandColliderInputController : MonoBehaviour
         }
 
         /* TODO:          Instatiate the physics object using a gesture (use the 'PICK' trigger gesture)
-        *  Hints:         'handInfo.tracking_info.poi' will give you the pinch position in 2D pixel coordinates. Use this to perform
-        *                 a raycast to the world and if the ray hits the object named 'PlayPlane' then instantiate 'physicsObjectPrefab'
-        *  (!) Important: Instantiate the object 'physicsObjectPrefab' as a parent of 'ScenePrefab(Clone)'
+        *  Hints:         'handInfo.tracking_info.poi' will give you the pinch position in normalized screen coordiantes [0...1]. You must convert
+        *                 these to actual pixel values by multiplying with Constants.SCREEN_WIDTH / SCREEN_HEIGHT. Use these to perform
+        *                 a raycast to the world and if the ray hits the object named 'PlayPlane', then instantiate 'physicsObjectPrefab'
+        *  (!) Important: Instantiate the object 'physicsObjectPrefab' as a child of 'ScenePrefab(Clone)'
         */
         // Code here
 

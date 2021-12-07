@@ -244,7 +244,7 @@ After getting the game to run and instantiating the virtual basketball court, yo
 - Hover your open hand over it, when it highlights it means it can be interacted with
 - Perform a *grab trigger gesture* - you should be able to virtually 'hold' the basketball. It will remain as such until you perform a *release trigger gesture*. Try to move the basketball while holding onto it.
 
-## 5. Basketball game hands-on work (pun intended 😬) 
+## 5. Basketball game hands-on work
 
 Most of the coding will be done in the scripts from the "ToDoLogic" folder.
 

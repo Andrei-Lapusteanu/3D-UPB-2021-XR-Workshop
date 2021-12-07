@@ -1,5 +1,5 @@
 
-# 3D-UPB-2021-XR | Mixed Reality Workshop
+# 3D-UPB-2021-XR | Virtual Reality Workshop
 
 # Quick onboarding
 
@@ -25,7 +25,7 @@ Basically, I've made a simple and silly FPS game which currently works on PC (ke
 > 
 > Disclaimer: There's no hate towards drones, they're cool, consider the cannon-wielding protagonist as the villain in this game 😁
 
-<LINK! >
+[VR Demo (click here)](https://www.youtube.com/watch?v=mvYk8ZkUaXU)
 
 # Let's get to work
 
@@ -97,6 +97,8 @@ The **quickstart guide** for the plugin can be found here https://developers.goo
 - Under **Publishing Settings**
 	 
 	- In the **Build**  section, select  `Custom Main Gradle Template`  and  `Custom Gradle Properties Template`
+
+	- Add the following lines to `Assets/Plugins/Android/mainTemplate.gradle` (open with Notepad/Notepad++)
 
 ```JS
 implementation 'androidx.appcompat:appcompat:1.0.0'  
@@ -256,8 +258,7 @@ Follows these guidelines (also, see the behaviour in the video), but feel free t
 	
 	- Do not instantiate the **DroneProjectile** at the position of the drone, as it will automatically collide with it. Instantiate it in front of the drone, a possible solution could be ```transform.position + 2 * transform.forward```, where ```transform``` refers to the drone's transform.
 	
-	- When shooting, the drone should play the sound **droneFire.mp3**, found under the **Sounds** folder. As the drone has **2 AudioSources** attached, we
-	-  have to select which one to play when firing (as the first sound is already used for the flying sound). I've already setup this for you, consult the ```PlayFireSound()``` inside the ```DroneAttackController.cs``` for implementation
+	- When shooting, the drone should play the sound **droneFire.mp3**, found under the **Sounds** folder. As the drone has **2 AudioSources** attached, we have to select which one to play when firing (as the first sound is already used for the flying sound). I've already setup this for you, consult the ```PlayFireSound()``` inside the ```DroneAttackController.cs``` for implementation
 	
 	- When a **DroneProjectile** collides with the player, he/she should take damage. The ```PlayerController.cs``` scrips already has a ```TakeDamage()``` function, you can make use of that
 	
